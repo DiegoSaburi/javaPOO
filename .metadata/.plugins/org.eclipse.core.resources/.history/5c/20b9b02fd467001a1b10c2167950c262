@@ -1,0 +1,6 @@
+package helloworld;
+import models.playlist;
+
+public class main {
+	public playlist minha_playlist = new playlist();
+}

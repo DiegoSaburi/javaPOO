@@ -1,0 +1,7 @@
+package models;
+import java.util.ArrayList;
+import java.util.List;
+
+public class playlist {
+	public ArrayList<musica> lista_musicas = new ArrayList<>();
+}

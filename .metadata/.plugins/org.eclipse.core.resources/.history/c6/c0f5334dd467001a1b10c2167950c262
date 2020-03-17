@@ -1,0 +1,9 @@
+package helloworld;
+import models.playlist;
+import models.musica;
+
+public class main {
+	public playlist minha_playlist = new playlist();
+	public musica music1 = new musica();
+	minha_playlist.append()
+}

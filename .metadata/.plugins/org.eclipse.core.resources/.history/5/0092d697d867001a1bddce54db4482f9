@@ -1,0 +1,17 @@
+package helloworld;
+import models.playlist;
+import models.musica;
+
+public class main {
+	
+	public static void main (String[] args) {
+		
+		playlist minha_playlist = new playlist();
+		musica music1 = new musica();
+		
+		music1.setAlbum("longas palavras");
+		music1.setNome("Cu de cachorro");
+		music1.setDuracao(225);
+		minha_playlist.print();
+	}
+}

@@ -1,0 +1,23 @@
+package models;
+import java.util.ArrayList;
+
+public class playlist {
+	public ArrayList<musica> lista_musicas = new ArrayList<>();
+	private int duracao_playlist = 0;
+	
+	public int getDuracao_playlist() {
+		return duracao_playlist;
+	}
+	
+	public void append ( musica song ) {
+		lista_musicas.add(song);
+		duracao_playlist += song.getDuracao();
+	}
+	
+	public void print() {
+		for (int i = 0 ; i < this.lista_musicas.size();i++) {
+			System.out.println("===== " + (i + 1) + " =====");
+			lista_musicas.get(i).print();
+		}
+	}
+}

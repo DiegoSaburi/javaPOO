@@ -1,0 +1,34 @@
+package helloworld;
+import models.playlist;
+import models.musica;
+
+public class main {
+	
+	public static void main (String[] args) {
+		
+		playlist minha_playlist = new playlist();
+		musica music1 = new musica();
+		musica music2 = new musica();
+		musica music3 = new musica();
+		
+		music1.setAlbum("longas palavras");
+		music1.setNome("Cu de cachorro");
+		music1.setDuracao(225);
+		
+		music2.setAlbum("as vezes");
+		music2.setNome("quem se importa");
+		music2.setDuracao(225);
+		
+		
+		music3.setAlbum("mano");
+		music3.setNome("do céu");
+		music3.setDuracao(225);
+		
+		minha_playlist.append(music1);
+		minha_playlist.append(music2);
+		minha_playlist.append(music3);
+		
+		minha_playlist.print();
+		
+	}
+}

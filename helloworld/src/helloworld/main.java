@@ -9,8 +9,8 @@ public class main {
 		playlist minha_playlist = new playlist();
 		musica music1 = new musica("longas palavras",225,"Cu de cachorro");
 		musica music2 = new musica("as vezes",225,"quem");
-		musica music3 = new musica("batata",225,"cabe�a");
-		
+		musica music3 = new musica("batata",225,"cabeça");
+		//mais um Comment de teste
 		minha_playlist.append(music1);
 		minha_playlist.append(music2);
 		minha_playlist.append(music3);

@@ -17,7 +17,5 @@ public class main {
 		
 		minha_playlist.print();
 		
-		minha_playlist.print();
-		
 	}
 }

@@ -9,7 +9,7 @@ public class main {
 		playlist minha_playlist = new playlist();
 		musica music1 = new musica("longas palavras",225,"Cu de cachorro");
 		musica music2 = new musica("as vezes",225,"quem");
-		musica music3 = new musica("batata",225,"cabeça");
+		musica music3 = new musica("batata",225,"cabeï¿½a");
 		
 		minha_playlist.append(music1);
 		minha_playlist.append(music2);
@@ -18,6 +18,6 @@ public class main {
 		minha_playlist.print();
 		
 		minha_playlist.print();
-		
+		//teste
 	}
 }
